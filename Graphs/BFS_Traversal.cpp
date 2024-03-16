@@ -85,7 +85,7 @@ int main(){
     cout<<"Enter the number of edges :";cin>>m;
 
     vector<pair<int,int>> edges(m);
-    unordered_map<int,list<int>> adjList;
+    
     cout<<"Enter Edge :"<<endl;
     for (int i = 0; i < m; i++)
     {
